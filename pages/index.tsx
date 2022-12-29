@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import { GeneralLayout } from '../Layout/GeneralLayout'
+import { CarouselHome } from '../components/CarouselHome';
+import { LatestArticles } from '../components/LatestArticles';
 
 export default function Home() {
   return (
@@ -11,7 +13,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <GeneralLayout>
-        <h1>Hola mundo</h1>
+        <CarouselHome />
+        <LatestArticles />
       </GeneralLayout>
     </>
   )
