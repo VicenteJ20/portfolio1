@@ -1,0 +1,54 @@
+[
+  {
+    "id": 1,
+    "name": "Front End"
+  },
+  {
+    "id": 2,
+    "name": "React"
+  },
+  {
+    "id": 3,
+    "name": "JavaScript"
+  },
+  {
+    "id": 4,
+    "name": "TypeScript"
+  },
+  {
+    "id": 5,
+    "name": "Python"
+  },
+  {
+    "id": 6,
+    "name": "Firebase"
+  },
+  {
+    "id": 7,
+    "name": "Backend"
+  },
+  {
+    "id": 8,
+    "name": "AWS"
+  },
+  {
+    "id": 9,
+    "name": "RDS"
+  },
+  {
+    "id": 10,
+    "name": "MySQL"
+  },
+  {
+    "id": 11,
+    "name": "NextJS"
+  },
+  {
+    "id": 12,
+    "name": "C#"
+  },
+  {
+    "id": 13,
+    "name": "Azure"
+  }
+]
