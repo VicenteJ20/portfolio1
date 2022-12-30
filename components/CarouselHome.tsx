@@ -30,8 +30,8 @@ const previewData = [
 export const CarouselHome = () => {
   SwiperCore.use([Autoplay])
   return (
-    <section className="w-full">
-      <Swiper spaceBetween={50} slidesPerView={1} autoplay={{delay: 3000}}>
+    <section className="w-100">
+      <Swiper spaceBetween={20} slidesPerView={1} autoplay={{delay: 3000}}>
         {
           previewData.map(x => <SwiperSlide key={x.id} ><CarouselInternal id={x.id} title={x.title} subtitle={x.subtitle} linkToArticle={x.linkToArticle} imageURL={x.imageURL} /></SwiperSlide>)
         }
