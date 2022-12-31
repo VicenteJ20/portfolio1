@@ -3,7 +3,9 @@ import { GeneralLayout } from "../Layout/GeneralLayout"
 import { MdLocationOn } from 'react-icons/md'
 import { FiMail, FiDownloadCloud } from 'react-icons/fi'
 import MySkills from '../json/myskills.json'
+import MyProjects from '../json/projectsData.json'
 import Link from "next/link"
+import ProjectCard from "../components/ProjectCard"
 
 const About = () => {
   return (
@@ -43,6 +45,11 @@ const About = () => {
         </div>
         <div className='mt-3 pt-5'>
           <h2 className='text-2xl font-bold'>Projects</h2>
+          <div className='w-100 min-h-screen grid grid-cols-1 md:grid-cols-3 gap-4 xl:gap-10 gap-y-10 md:gap-y-4 mt-5'>
+            {
+              MyProjects.map(x => <ProjectCard key={x.id} id={x.id} inProgress={x.inProgress} title={x.title} description={x.description} startDate={x.startDate} projectURL={x.projectURL} imageURL={x.imageURL} attributionIMG={x.attributionImg} />)
+            }
+          </div>
         </div>
       </section>
     </GeneralLayout>
