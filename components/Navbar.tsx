@@ -12,8 +12,8 @@ export const Navbar = () => {
   }
 
   return (
-    <header className={` z-20 w-full py-4 mx-auto md:pt-3 flex flex-col md:flex-row transition transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); justify-start ${show ? 'min-h-screen' : 'h-20'} md:h-fit  items-center px-3 md:px-10 gap-y-6  md:justify-between bg-blend-darken fixed md:relative bg-white`}>
-      <ul className={`md:flex z-30 text-2xl md:text-lg flex-col w-full md:flex-row gap-4 gap-y-6 text-end md:text-start ${show ? 'flex pt-32' : 'hidden'}`}>
+    <header className={` z-20 w-full py-4 mx-auto md:pt-3 flex flex-col md:flex-row transition transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); justify-start ${show ? 'h-full pt-20' : ' h-20'} md:h-fit  items-center px-3 md:px-10 gap-y-6  md:justify-between bg-blend-darken fixed md:relative bg-white`}>
+      <ul className={`md:flex z-30 bg-white text-2xl md:text-lg flex-col w-full md:flex-row gap-4 gap-y-6 text-end md:text-start ${show ? 'flex' : 'hidden'}`}>
         <li><Link href={'/about'} onClick={handleShow}>About</Link></li>
         <li><Link href={'/blog'} onClick={handleShow}>Blog</Link></li>
       </ul>
