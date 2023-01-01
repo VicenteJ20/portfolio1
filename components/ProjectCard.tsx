@@ -1,6 +1,5 @@
 import Link from "next/link"
 import Image from 'next/image'
-import { start } from "repl"
 
 interface DataProps {
   id: number,
