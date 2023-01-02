@@ -1,5 +1,13 @@
-import { GeneralLayout } from "../Layout/GeneralLayout"
-import Image from "next/image"
+import { GeneralLayout } from '../Layout/GeneralLayout'
+import { Formik, Form, Field, FormikHelpers } from 'formik'
+
+interface Values {
+  name: string,
+  email: string,
+  service: string,
+  comment: string,
+  isEnterprise: boolean
+}
 
 const Contact = () => {
   return (
@@ -13,6 +21,48 @@ const Contact = () => {
         </div>
         <div>
           <h2 className='font-bold text-3xl text-center'>Fill in the form below to contact me</h2>
+          <Formik
+            initialValues={{
+              name: '',
+              email: '',
+              service: '',
+              comment: '',
+              isEnterprise: false
+            }}
+            onSubmit={(
+              values: Values,
+              { setSubmitting }: FormikHelpers<Values>
+            ) => {
+              setTimeout(() => {
+                alert(JSON.stringify(values, null, 2));
+                setSubmitting(false);
+              }, 500);
+            }}
+          >
+            <Form className='grid grid-cols-2 pt-12 justify-center items-center gap-4 px-6'>
+              <div className='flex flex-col gap-2'>
+                <label htmlFor="name">{"What's your full name"}</label>
+                <Field id="name" name="name" placeholder="E.x: Vicente Jorquera" className=' border-2 px-2 py-1 rounded-md' />
+              </div>
+              <div className='flex flex-col gap-2'>
+                <label htmlFor="email">{"What's your email"}</label>
+                <Field id="email" name="email" placeholder="E.x: vicente@gmail.com" className=' border-2 px-2 py-1 rounded-md' />
+              </div>
+              <div className='flex flex-col gap-2'>
+                <label htmlFor="service">What kind of service do you need help with?</label>
+                <Field id="service" name="service" placeholder="E.x: vicente@gmail.com" className='border-2 px-2 py-1 rounded-md' />
+              </div>
+              <div className='flex flex-col gap-2'>
+                <label htmlFor="isCompany">Are you representing a company?</label>
+                <select id="isCompany" name="isCompany" className='border-2 px-2 py-1 rounded-md'>
+                  <option selected disabled>Seleccione una opción</option>
+                  <option value='yes'>Yes</option>
+                  <option value='yes'>No</option>
+                </select>
+              </div>
+              <button type="submit">Enviar</button>
+            </Form>
+          </Formik>
         </div>
       </section>
     </GeneralLayout>
