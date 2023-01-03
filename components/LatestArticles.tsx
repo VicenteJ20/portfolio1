@@ -19,7 +19,7 @@ export const LatestArticles = () => {
         <input onClick={handleActive} type='button' value='Cloud' name='cloud' id='cloud' className={` ${'Cloud' === active ? 'bg-black text-white font-bold' : ''} rounded-md border-2 cursor-pointer text-center px-4 py-1`} />
         <input onClick={handleActive} type='button' value='Technology' name='technology' id='technology' className={`${'Technology' === active ? 'bg-black text-white font-bold' : ''} rounded-md border-2 cursor-pointer text-center px-4 py-1`} />
       </form>
-      <div className='w-100 min-h-screen grid grid-cols-1 md:grid-cols-3 gap-4 xl:gap-10 gap-y-10 md:gap-y-4 mt-5'>
+      <div className='w-100 grid grid-cols-1 md:grid-cols-3 gap-4 xl:gap-10 gap-y-10 md:gap-y-4 mt-5'>
         {
           jsonData.map(x => x.category === active || active === 'All' ? <LatestCard key={x.id} category={x.category} imgUrl={x.imgURL} title={x.title} description={x.description} authorURL={x.authorImg} authorName={x.authorName} attributionImg={x.attributionIMG} date={x.date} articleUrl={x.articleURL} /> : '')
         }

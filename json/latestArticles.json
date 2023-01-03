@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "imgURL": "https://images.unsplash.com/photo-1661961112951-f2bfd1f253ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80",
+    "imgURL": "/images/articles/article1.jpg",
     "attributionIMG": "Photo by Dell on Unsplash",
     "title": "My top 3 technologies to learn on 2023",
     "description": "Technology is constantly changing and developers have to keep up to date almost as fast as the emergence of new technologies allows us to...",
@@ -13,7 +13,7 @@
   },
   {
     "id": 2,
-    "imgURL": "https://images.unsplash.com/photo-1661961110671-77b71b929d52?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "imgURL": "/images/articles/article2.jpg",
     "attributionIMG": "Photo by Dell on Unsplash",
     "title": "The best operating system for developing apps is...",
     "description": "The argument over which is the best operating system for programming will never end. In this article I'll tell you why the best operating system...",
@@ -25,7 +25,7 @@
   },
   {
     "id": 3,
-    "imgURL": "https://images.unsplash.com/photo-1474403078171-7f199e9d1335?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+    "imgURL": "/images/articles/article3.jpg",
     "attributionIMG": "Photo by Parker Byrd on Unsplash",
     "title": "You need to learn virtual machines on 2023",
     "description": "Virtual machines are the best way to learn essential IT skills, do you know how to take advantage of them?",
@@ -37,7 +37,7 @@
   },
   {
     "id": 4,
-    "imgURL": "https://images.unsplash.com/photo-1661961112951-f2bfd1f253ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80",
+    "imgURL": "/images/articles/article1.jpg",
     "attributionIMG": "Photo by Dell on Unsplash",
     "title": "My top 3 technologies to learn on 2023",
     "description": "Technology is constantly changing and developers have to keep up to date almost as fast as the emergence of new technologies allows us to...",
@@ -49,7 +49,7 @@
   },
   {
     "id": 5,
-    "imgURL": "https://images.unsplash.com/photo-1661961110671-77b71b929d52?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "imgURL": "/images/articles/article2.jpg",
     "attributionIMG": "Photo by Dell on Unsplash",
     "title": "The best operating system for developing apps is...",
     "description": "The argument over which is the best operating system for programming will never end. In this article I'll tell you why the best operating system...",
@@ -61,8 +61,8 @@
   },
   {
     "id": 6,
-    "imgURL": "https://images.unsplash.com/photo-1548611716-ad782502c9d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-    "attributionIMG": "Photo by Parker Byrd on Unsplash",
+    "imgURL": "/images/articles/article6.jpg",
+    "attributionIMG": "Photo by Joshua Woroniecki on Unsplash",
     "title": "You need to learn virtual machines on 2023",
     "description": "Virtual machines are the best way to learn essential IT skills, do you know how to take advantage of them?",
     "authorImg": "https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1085&q=80",
