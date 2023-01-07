@@ -6,6 +6,10 @@ interface ProjectProps {
   }
 }
 
-export const Project = (props: ProjectProps) => {
-
+const Project = (props: ProjectProps) => {
+  return (
+    <h1>Hola mundo</h1>
+  )
 }
+
+export default Project
