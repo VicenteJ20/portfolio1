@@ -3,37 +3,34 @@
     "id": 1,
     "imgURL": "/images/articles/article1.jpg",
     "attributionIMG": "Photo by Dell on Unsplash",
-    "title": "My top 3 technologies to learn on 2023",
-    "description": "Technology is constantly changing and developers have to keep up to date almost as fast as the emergence of new technologies allows us to...",
-    "authorImg": "https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1085&q=80",
+    "title": "Top 3 tecnologías para aprender en 2023",
+    "description": "La tecnología está en constante cambio y los desarrolladores tenemos que estar actualizados casi tan rápido como las nuevas tecnologías nos lo permiten...",
+    "authorImg": "/images/about/profile.jpg",
     "authorName": "Vicente Jorquera",
     "date": "Dec 23, 2022",
-    "category": "Technology",
-    "articleURL": ""
+    "category": "Tecnología"
   },
   {
     "id": 2,
     "imgURL": "/images/articles/article2.jpg",
     "attributionIMG": "Photo by Dell on Unsplash",
-    "title": "The best operating system for developing apps is...",
-    "description": "The argument over which is the best operating system for programming will never end. In this article I'll tell you why the best operating system...",
-    "authorImg": "https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1085&q=80",
+    "title": "El mejor sistema operativo para desarrollar aplicaciones es...",
+    "description": "Los argumentos sobre cual es el mejor sistema operativo para desarrollar aplicaciones nunca llegararán aun acuerdo, en este artículo te mostraré cual es el mejor SO y por qué.",
+    "authorImg": "/images/about/profile.jpg",
     "authorName": "Vicente Jorquera",
     "date": "Dec 23, 2022",
-    "category": "Code",
-    "articleURL": ""
+    "category": "Código"
   },
   {
     "id": 3,
     "imgURL": "/images/articles/article3.jpg",
     "attributionIMG": "Photo by Parker Byrd on Unsplash",
-    "title": "You need to learn virtual machines on 2023",
+    "title": "Necesitas aprender máquinas virtuales y necesitas hacerlo ¡ahora!",
     "description": "Virtual machines are the best way to learn essential IT skills, do you know how to take advantage of them?",
-    "authorImg": "https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1085&q=80",
+    "authorImg": "/images/about/profile.jpg",
     "authorName": "Vicente Jorquera",
     "date": "Dec 23, 2022",
-    "category": "Systems",
-    "articleURL": ""
+    "category": "Sistemas"
   },
   {
     "id": 4,
@@ -41,11 +38,10 @@
     "attributionIMG": "Photo by Dell on Unsplash",
     "title": "My top 3 technologies to learn on 2023",
     "description": "Technology is constantly changing and developers have to keep up to date almost as fast as the emergence of new technologies allows us to...",
-    "authorImg": "https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1085&q=80",
+    "authorImg": "/images/about/profile.jpg",
     "authorName": "Vicente Jorquera",
     "date": "Dec 23, 2022",
-    "category": "Technology",
-    "articleURL": ""
+    "category": "Tecnología"
   },
   {
     "id": 5,
@@ -53,22 +49,20 @@
     "attributionIMG": "Photo by Dell on Unsplash",
     "title": "The best operating system for developing apps is...",
     "description": "The argument over which is the best operating system for programming will never end. In this article I'll tell you why the best operating system...",
-    "authorImg": "https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1085&q=80",
+    "authorImg": "/images/about/profile.jpg",
     "authorName": "Vicente Jorquera",
     "date": "Dec 23, 2022",
-    "category": "Code",
-    "articleURL": ""
+    "category": "Código"
   },
   {
     "id": 6,
     "imgURL": "/images/articles/article6.jpg",
     "attributionIMG": "Photo by Joshua Woroniecki on Unsplash",
-    "title": "You need to learn virtual machines on 2023",
-    "description": "Virtual machines are the best way to learn essential IT skills, do you know how to take advantage of them?",
-    "authorImg": "https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1085&q=80",
+    "title": "Aprende programación y habilidades digitales en línea y gratis",
+    "description": "En 2023 no necesitas pagar una costosa universidad para aprender sobre tecnología, puedes hacerlo gratis en línea con estás páginas...",
+    "authorImg": "/images/about/profile.jpg",
     "authorName": "Vicente Jorquera",
     "date": "Dec 23, 2022",
-    "category": "Systems",
-    "articleURL": ""
+    "category": "Sistemas"
   }
 ]

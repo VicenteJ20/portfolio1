@@ -1,6 +1,11 @@
 import Image from "next/image"
 import Link from "next/link"
 
+function formatLink( title: string ) : string {
+  let link = title.normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+  return link.replaceAll(' ', '-').replaceAll('!', '').replaceAll('¡', '').replaceAll('.', '').toLowerCase()
+}
+
 interface data {
   category: string,
   imgUrl: string,
@@ -9,13 +14,13 @@ interface data {
   authorURL: string,
   authorName: string,
   attributionImg: string,
-  date: string,
-  articleUrl: string
+  date: string
 }
 
-export const LatestCard = ({ category, imgUrl, title, description, authorURL, authorName, attributionImg, date, articleUrl } : data) => {
+export const LatestCard = ({ category, imgUrl, title, description, authorURL, authorName, attributionImg, date } : data) => {
+  
   return (
-    <Link href={`/${articleUrl}`} className='relative hover:transition-all flex justify-between flex-col gap-3 rounded-lg hover:bg-gray-200 p-3'>
+    <Link href={`/articles/${formatLink(title)}`} className='relative hover:transition-all flex justify-between flex-col gap-3 rounded-lg hover:bg-gray-200 p-3'>
       <div className='absolute right-4 top-4 px-3 bg-black rounded-md text-white font-medium'>{category}</div>
       <Image src={imgUrl} width={1000} height={1000} className='w-100 h-50 rounded-lg' alt={attributionImg} />
       <h2 className='font-bold text-xl xl:text-2xl xl:h-14 text-gray-900'>{title}</h2>

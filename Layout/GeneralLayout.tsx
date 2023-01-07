@@ -11,7 +11,8 @@ export const GeneralLayout = ({ children, ...props}: Props) => {
       <div className='children flex flex-col gap-5 px-3 md:px-10 py-3 pt-20 md:pt-2' {...props}>
         {children}
       </div>
-      <footer className='px-10 py-3'>Este es el footer</footer>
+      
+      <footer className='text-center px-4 py-3'>&copy; Copyright 2023, Vicente Jorquera. Todos los derechos reservados.</footer>
     </main>
   )
 }

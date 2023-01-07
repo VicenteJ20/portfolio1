@@ -2,7 +2,7 @@
   {
     "id": 1,
     "inProgress": true,
-    "title": "EasyNotes - The best way to take notes",
+    "title": "EasyNotes - La mejor forma de tomar notas",
     "description": "EasyNotes is a personal project with which I intend to create a free and paid service according to people's needs to help them organize their lives and be more productive every day.",
     "startDate": "Dec 23, 2022",
     "projectURL": "https://easynotesapp.netlify.app/",
@@ -12,7 +12,7 @@
   {
     "id": 2,
     "inProgress": false,
-    "title": "Standard calculator - web technologies",
+    "title": "Calculadora básica - JavaScript - React",
     "description": "In this project I developed a web application in JavaScript with React and Bootstrap, to perform basic arithmetic calculations and includes a set of visual themes, to improve accessibility.",
     "startDate": "May 19, 2022",
     "projectURL": "https://jvicente20-calculator-app.netlify.app/",
@@ -22,8 +22,8 @@
   {
     "id": 3,
     "inProgress": false,
-    "title": "Management system - AWS - RDS - REACT - Apache 2",
-    "description": "In this project I developed a web system that allows to manage sandwiches, for this I used React, MySQL in RDS, Ubuntu Server among other technologies, like Apache2 and ExpressJS.",
+    "title": "Sistema de administración - AWS - RDS - NodeJS - Apache2",
+    "description": "Este proyecto lo desarrollé pensando en un pequeño sistema de administración de sandwiches, para el cual usé NodeJS - EXPRESS - MySql - RDS - Ubuntu Server y Apache2",
     "startDate": "Jan 2, 2022",
     "projectURL": "",
     "imageURL": "/images/about/working.jpg",
@@ -32,8 +32,8 @@
   {
     "id": 4,
     "inProgress": true,
-    "title": "My personal portfolio & this blog",
-    "description": "This project is a personal case for me, so I don't think it's possible to consider it finished at some point, as I have to add improvements day by day to improve the user experience.",
+    "title": "Mi portafolio personal y este blog",
+    "description": "En este caso este un caso personal para mi, por lo que, no creo que pueda considerarlo como finalizado en algún punto, ya que iré agregando nuevas funcionalidades que mejoren la experiencia de usuario.",
     "startDate": "Dec 23, 2022",
     "projectURL": "/",
     "imageURL": "/images/about/setup.jpg",
@@ -42,8 +42,8 @@
   {
     "id": 5,
     "inProgress": false,
-    "title": "ISP Public IP Address Tracker",
-    "description": "This project is a public IP address tracker, so you can find out the IP, time zone and name of the ISP you are connected to. If you do not enter an IP address it will use your current public IP.",
+    "title": "Rastreador de direcciones IP Públicas (ISP)",
+    "description": "Este proyecto es un rastreador de direcciones IP públicas, puedes encontrar información como la zona horaria y el nombre del ISP al que estás conectado o buscar una IP manualmente",
     "startDate": "Aug 14, 2022",
     "projectURL": "https://jvicente20-ip-tracker.netlify.app/",
     "imageURL": "/images/about/location.jpg",
