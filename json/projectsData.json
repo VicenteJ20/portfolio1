@@ -13,7 +13,7 @@
     "id": 2,
     "inProgress": false,
     "title": "Calculadora básica - JavaScript - React",
-    "description": "In this project I developed a web application in JavaScript with React and Bootstrap, to perform basic arithmetic calculations and includes a set of visual themes, to improve accessibility.",
+    "description": "Este proyecto es uno de los más simples que he hecho, encontré el desafío en frontendmentor y decidí usar React y Boostrap junto a JavaScript",
     "startDate": "May 19, 2022",
     "projectURL": "https://jvicente20-calculator-app.netlify.app/",
     "imageURL": "/images/about/calculator.jpg",
