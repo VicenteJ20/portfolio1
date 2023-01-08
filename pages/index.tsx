@@ -2,6 +2,7 @@ import Head from 'next/head'
 import { GeneralLayout } from '../Layout/GeneralLayout'
 import { CarouselHome } from '../components/CarouselHome';
 import { LatestArticles } from '../components/LatestArticles';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <CarouselHome />
         <LatestArticles />
       </GeneralLayout>
+      <Analytics />
     </>
   )
 }
