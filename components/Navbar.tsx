@@ -20,7 +20,7 @@ export const Navbar = () => {
       <div onClick={handleShow} className='text-3xl absolute right-3 top-4 cursor-pointer md:hidden z-30'>
         <GiHamburgerMenu name={show ? 'Cerrar menú' : 'Abrir menú'} />
       </div>
-      <Link href={'/'} className='text-2xl z-30 font-black p-1 absolute w-fit mx-auto left-0 md:left-0 right-0 w-100 flex items-center justify-start md:justify-center top-3 '>Vicente Jorquera</Link>
+      <Link href={'/'} className='text-2xl z-30 font-black p-1 absolute w-fit mx-auto left-0 md:left-0 right-2 w-100 flex items-center justify-start md:justify-center top-3 uppercase'>Vicente Jorquera</Link>
       <div className={`md:flex items-center justify-end w-full md:w-fit gap-4 ${show ? 'flex' : 'hidden'}`}>
         <BiSearchAlt2 className='hidden md:block text-2xl hover:text-blue-500 cursor-pointer' />
         <Link href={'/contact'} className='py-2 px-4 bg-gray-900 text-white text-xl md:text-base font-semibold rounded-lg shadow-md block hover:bg-gray-700 transiton hover:ease-in-out'>Contacto</Link>
