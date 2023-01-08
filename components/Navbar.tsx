@@ -17,7 +17,7 @@ export const Navbar = () => {
         <li><Link href={'/about'} onClick={handleShow}>Acerca de</Link></li>
         <li><Link href={'/blog'} onClick={handleShow}>Blog</Link></li>
       </ul>
-      <div onClick={handleShow} className='text-3xl absolute right-3 top-6 cursor-pointer md:hidden z-30'>
+      <div onClick={handleShow} className='text-3xl absolute right-3 top-4 cursor-pointer md:hidden z-30'>
         <GiHamburgerMenu name={show ? 'Cerrar menú' : 'Abrir menú'} />
       </div>
       <Link href={'/'} className='text-2xl z-30 font-black p-1 absolute w-fit mx-auto left-0 md:left-0 right-0 w-100 flex items-center justify-start md:justify-center top-3 '>Vicente Jorquera</Link>
