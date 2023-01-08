@@ -10,7 +10,7 @@ export const LatestArticles = () => {
   }
 
   return (
-    <section className="mt-4">
+    <section className="mt-6 pt-4">
       <h2 className=' text-3xl font-bold'>Últimos artículos</h2>
       <form className='flex gap-x-4 gap-y-2 md:gap-5 flex-wrap mt-5 w-100'>
         <input onClick={handleActive} type='button' value='Todo' name='todo' id='todo' className={`${'Todo' === active ? 'bg-black text-white font-bold' : ''} rounded-md border-2 cursor-pointer text-center px-4 py-1`} />
