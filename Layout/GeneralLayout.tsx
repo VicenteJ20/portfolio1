@@ -13,7 +13,7 @@ export const GeneralLayout = ({ children, ...props}: Props) => {
           {children}
         </div>
       </main>
-      <div className='h-20 mt-4 mb-4 mb-4 flex items-center px-20'>
+      <div className='h-20 mt-4 mb-4 flex items-center px-20'>
         <footer className='text-center'>&copy; Copyright 2023, Vicente Jorquera. Todos los derechos reservados.</footer>
       </div>
     </>
