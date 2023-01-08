@@ -12,7 +12,7 @@ export const GeneralLayout = ({ children, ...props}: Props) => {
         {children}
       </div>
       
-      <footer className='text-center px-4 py-3 my-6'>&copy; Copyright 2023, Vicente Jorquera. Todos los derechos reservados.</footer>
+      <footer className='text-center px-4 py-3 mt-6 mb-6'>&copy; Copyright 2023, Vicente Jorquera. Todos los derechos reservados.</footer>
     </main>
   )
 }
