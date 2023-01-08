@@ -8,7 +8,7 @@ export const GeneralLayout = ({ children, ...props}: Props) => {
   return (
     <main className='min-h-screen'>
       <Navbar />
-      <div className='children flex flex-col gap-5 px-3 md:px-10 py-3 pt-5 pb-5 md:pt-2' {...props}>
+      <div className='children flex flex-col gap-5 px-3 mt-10 pt-5 md:mt-4 md:pt-2 md:px-10 py-3 pb-5' {...props}>
         {children}
       </div>
       
