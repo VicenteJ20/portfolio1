@@ -49,7 +49,7 @@ const About = () => {
         </div>
         <div className='mt-3 pt-5'>
           <h2 className='text-2xl font-bold'>Proyectos</h2>
-          <div className='w-100 min-h-screen grid grid-cols-1 md:grid-cols-3 gap-4 xl:gap-10 gap-y-10 md:gap-y-4 mt-5'>
+          <div className='w-100 grid grid-cols-1 md:grid-cols-3 gap-4 xl:gap-10 gap-y-10 md:gap-y-4 mt-5'>
             {
               MyProjects.map(x => <ProjectCard key={x.id} id={x.id} inProgress={x.inProgress} title={x.title} description={x.description} startDate={x.startDate} imageURL={x.imageURL} attributionIMG={x.attributionImg} />)
             }
