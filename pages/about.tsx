@@ -14,7 +14,7 @@ const About = () => {
       <Head>
         <title>Acerca de - Vicente Jorquera</title>  
       </Head>
-      <section className='w-100'>
+      <section className='w-100 mt-10 pt-5 md:mt-4 md:pt-2'>
         <div className='w-100 mb-8 xl:mb-12 h-32 md:h-64 xl:h-80 relative bg-gray-900 rounded-lg bg-no-repeat inset-0 bg-opacity-30 bg-cover bg-center' style={{backgroundImage: "URL('/images/about/about_background.jpg')"}}>
           <div className='bg-white w-18 h-18 md:w-28 md:h-24 pt-2 pl-2 pr-2 pb-0 rounded-md absolute left-5 xl:left-8 md:-bottom-8 -bottom-12 xl:-bottom-14 xl:w-36 xl:h-36'>
             <Image src={'/images/about/profile.jpg'} className=' w-16 h-16 md:w-24 md:h-24 xl:w-32 xl:h-32 rounded-md' alt='Author profile image' width={500} height={500}/>
