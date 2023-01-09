@@ -1,3 +1,7 @@
+import { useRouter } from "next/router"
+import ProjectArticle from "../../components/ProjectArticle"
+import projectsData from '../../json/projectsData.json'
+
 interface ProjectProps {
   data: {
     id: string,
@@ -6,31 +10,15 @@ interface ProjectProps {
   }
 }
 
-const Project = (props: ProjectProps) => {
-  return (
-    <h1>Hola mundo</h1>
-  )
-}
-
 function formatLink( title: string ) : string {
   let link = title.normalize("NFD").replace(/[\u0300-\u036f]/g, "")
-  return link.replaceAll('(', '').replaceAll(')', '').replaceAll('-', '').replaceAll(' ', '-').replaceAll('!', '').replaceAll('¡', '').replaceAll('.', '').toLowerCase()
+  return link.replaceAll('(', '').replaceAll(')', '').replaceAll('-', '').replaceAll(' ', '-').replaceAll('!', '').replaceAll('¡', '').replaceAll('.', '').toLowerCase().replace('--', '-')
 }
 
-export async function getStaticPaths() {
-  try {
-    const res = await fetch('../../json/projectsData.json')
-    const data = await res.json()
-    const paths = data.map((x: any) => ({params: {id: formatLink(x.title)}}))
-
-    return {
-      paths,
-      fallback: false
-    }
-  } catch (err) {
-    console.log(err)
-  }
+const Project = (props: ProjectProps) => {
+  const router = useRouter()
+  const returnedId = router.query.id
+  return projectsData.map(x => formatLink(x.title) === returnedId ? <ProjectArticle key={x.id} url={x.title} /> : '')
 }
-
 
 export default Project

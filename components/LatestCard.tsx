@@ -3,7 +3,7 @@ import Link from "next/link"
 
 function formatLink( title: string ) : string {
   let link = title.normalize("NFD").replace(/[\u0300-\u036f]/g, "")
-  return link.replaceAll('(', '').replaceAll(')', '').replaceAll('-', '').replaceAll(' ', '-').replaceAll('!', '').replaceAll('¡', '').replaceAll('.', '').toLowerCase()
+  return link.replaceAll('(', '').replaceAll(')', '').replaceAll('-', '').replaceAll(' ', '-').replaceAll('!', '').replaceAll('¡', '').replaceAll('.', '').toLowerCase().replace('--', '-')
 }
 
 interface data {
