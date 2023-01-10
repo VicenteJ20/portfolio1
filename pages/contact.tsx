@@ -1,6 +1,7 @@
 import { GeneralLayout } from '../Layout/GeneralLayout'
 import { Formik, Form, Field, FormikHelpers } from 'formik'
 import FormFormik from '../components/contact_formik/Form'
+import Footer from '../components/Footer'
 
 interface Values {
   name: string,
@@ -20,6 +21,7 @@ interface Props {
 
 const Contact = () => {
   return (
+    <>
     <GeneralLayout>
       <section className='min-h-screen mt-10 pt-5 md:mt-4 md:pt-2'>
         <div className='w-100 mb-8 xl:mb-12  h-64 md:h-64 xl:h-96 relative  bg-gray-900 rounded-lg bg-no-repeat inset-0 bg-opacity-30 bg-cover bg-center' style={{backgroundImage: "URL('https://images.unsplash.com/photo-1462332420958-a05d1e002413?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2107&q=80')"}}>
@@ -33,6 +35,8 @@ const Contact = () => {
         </div>
       </section>
     </GeneralLayout>
+    <Footer />
+    </>
   )
 }
 

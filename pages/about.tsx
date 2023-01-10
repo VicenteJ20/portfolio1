@@ -3,6 +3,7 @@ import { GeneralLayout } from "../Layout/GeneralLayout"
 import { MdLocationOn } from 'react-icons/md'
 import { FiMail, FiDownloadCloud } from 'react-icons/fi'
 import MySkills from '../json/myskills.json'
+import Footer from "../components/Footer"
 import MyProjects from '../json/projectsData.json'
 import Link from "next/link"
 import ProjectCard from "../components/ProjectCard"
@@ -10,6 +11,7 @@ import Head from "next/head"
 
 const About = () => {
   return (
+    <>
     <GeneralLayout>
       <Head>
         <title>Acerca de - Vicente Jorquera</title>  
@@ -57,6 +59,8 @@ const About = () => {
         </div>
       </section>
     </GeneralLayout>
+    <Footer />
+    </>
   )
 }
 
