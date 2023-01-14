@@ -16,7 +16,7 @@ const ProjectCard = ({ id, inProgress, title, description, startDate, imageURL, 
 
   function formatLink( title: string ) : string {
     let link = title.normalize("NFD").replace(/[\u0300-\u036f]/g, "")
-    return link.replaceAll('(', '').replaceAll(')', '').replaceAll('-', '').replaceAll(' ', '-').replaceAll('!', '').replaceAll('¡', '').replaceAll('.', '').toLowerCase().replace('--', '-')
+    return link.replaceAll('(', '').replaceAll(')', '').replaceAll('-', '').replaceAll(' ', '-').replaceAll('!', '').replaceAll('¡', '').replaceAll('.', '').toLowerCase().replaceAll('--', '-')
   }
   return (
     <Link href={`/projects/${formatLink(title)}`} className='relative hover:transition-all flex justify-between flex-col gap-3 rounded-lg hover:bg-gray-200 p-3'>
