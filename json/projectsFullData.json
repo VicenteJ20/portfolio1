@@ -1,27 +1,7 @@
 [
-  {
-    "id": "easynotes",
-    "inProgress": true,
-    "aboveTitleTags":[
-      {
-        "id": 1,
-        "name": "Tecnología"
-      },
-      {
-        "id": 2,
-        "name": "Cloud"
-      },
-      {
-        "id": 3,
-        "name": "Utilidades"
-      }
-    ],
-    "title": "EasyNotes - La mejor forma de tomar notas",
-    "description": "EasyNotes es un proyecto personal con el cual he creado una servicio gratuito (próximamente tendrá un plan pago) que se acerca a las necesidades de las personas para a ayudarles a organizar sus vidas y ser más productivos cada día.",
-    "published": "Dec 23, 2022",
-    "author": "Vicente Jorquera",
-    "authorImg": "/images/about/profile.jpg",
-    "projectURL": "https://easynotesapp.netlify.app/",
-    "attributionImg": "Photo by AbsolutVision on Unsplash"
-  }
+ {
+  "category": "Programación",
+  "title": "EasyNotes, la mejor forma de tomar notas.",
+  "subtitle": "EasyNotes, es un proyecto personal desarrollado como proyecto final para completar una carrera técnica en Ingeniería en Informática."
+ }
 ]

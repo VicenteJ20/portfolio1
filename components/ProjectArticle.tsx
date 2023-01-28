@@ -1,11 +1,8 @@
 import { GeneralLayout } from "../Layout/GeneralLayout"
 import Footer from "./Footer"
 import Head from 'next/head';
-interface ProjectURL {
-  url: string
-}
-
 interface ProjectData {
+  url: string,
   category: string,
   title: string,
   subtitle: string,
@@ -16,7 +13,7 @@ interface ProjectData {
   }
 }
 
-const ProjectArticle = ({ url }: ProjectURL) =>{
+const ProjectArticle = ({ url, category, title, subtitle, imgHomeUrl, authorData }: ProjectData) =>{
   return (
     <>
       <Head>
